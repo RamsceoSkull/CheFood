@@ -150,10 +150,11 @@ body {
 
 .input {
   background-color: transparent;
+  border-bottom: 2px solid white;
   border-left: 0px;
   border-right: 0px;
   border-top: 0px;
-  border-bottom: 2px solid white;
+  color: white;
   font-family: 'Mulish', sans-serif;
   font-size: 20px;
   margin-bottom: 30px;

@@ -17,11 +17,17 @@
   <section class="signup">
     <section class="signup__container">
       <h2 class="titulo" tabindex="0">Regístrate</h2>
-      <form class="signup__container--form">
-        <input class="input" type="text" placeholder="Nombre">
-        <input class="input" type="text" placeholder="Correo">
-        <input class="input" type="password" placeholder="Contraseña">
-        <button class="button">Crear cuenta</button>
+      <form action="" class="signup__container--form">
+        <label for="nombre">
+          <input class="input" type="text" placeholder="Nombre" name="nombre" autocomplete="given-name" required>
+        </label>
+        <label for="correo">
+          <input class="input" type="email" placeholder="Correo" name="correo" autocomplete="email" required>
+        </label>
+        <label for="contraseña">
+          <input class="input" type="password" placeholder="Contraseña" name="contraseña" required>
+        </label>
+        <input type="submit" value="Crear cuenta" class="button"></input>
       </form>
       <p class="signup__container--register">Ya tienes cuenta
         <a href="../login/iniciar-sesion.html">Inicia sesión</a>
